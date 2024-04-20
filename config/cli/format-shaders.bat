@@ -1,1 +1,1 @@
-for /r "Assets\" %%f in (*.shader, *.compute) do clang-format -i -style=file %%f
+for /r "Assets\" %%f in (*.shader, *.compute, *.raytrace) do clang-format -i -style=file %%f

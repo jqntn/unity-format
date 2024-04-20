@@ -8,6 +8,10 @@ namespace Test
     {
         private const float Pascal = 0.0f;
 
+        public void A()
+        {
+        }
+
         protected void Awake()
         {
             Debug.LogError(Pascal);
